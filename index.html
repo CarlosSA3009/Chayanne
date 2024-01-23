@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <!-- Barra de navegación -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="index.html">Chayanne</a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link ?php echo $paginaActiva === 'inicio' ? 'active-page' : ''; ?>" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ?php echo $paginaActiva === 'discografia' ? 'active-page' : ''; ?>" href="discografia.html">Discografía</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ?php echo $paginaActiva === 'galeria' ? 'active-page' : ''; ?>" href="galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ?php echo $paginaActiva === 'contacto' ? 'active-page' : ''; ?>" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Biografía -->
+    <div class="container mt-5">
+        <h1>Biografía de Chayanne</h1>
+        <br>
+        <p>
+            Chayanne, cuyo nombre completo es Elmer Figueroa Arce, nació el 28 de junio de 1968 en Río Piedras, Puerto Rico. 
+            Desde joven, mostró interés y talento en el mundo del entretenimiento. Comenzó su carrera a una edad temprana como 
+            integrante del grupo musical Los Chicos en la década de 1970.
+            <br><br>
+            Su salto a la fama como solista ocurrió en la década de 1980. En 1984, lanzó su primer álbum como solista titulado 
+            "Chayanne es mi Nombre". Desde entonces, ha continuado lanzando una serie de álbumes exitosos que han consolidado 
+            su posición como uno de los artistas más destacados de la música latina.
+            <br><br>
+            Chayanne es conocido por su habilidad vocal, su presencia carismática en el escenario y sus habilidades para el 
+            baile. A lo largo de su carrera, ha explorado diversos géneros musicales, desde baladas románticas hasta pop y 
+            música tropical. Algunos de sus éxitos más conocidos incluyen "Tiempo de Vals", "Provócame", "Atado a Tu Amor", 
+            "Salomé" y "Torero".
+            <br><br>
+            Además de su carrera musical, Chayanne ha incursionado en la actuación. Ha participado en varias producciones 
+            cinematográficas y televisivas, consolidando su presencia en ambos campos del entretenimiento.
+            <br><br>
+            A lo largo de los años, Chayanne ha recibido numerosos premios y reconocimientos por su contribución a la música 
+            latina. Su legado artístico y su popularidad continúan siendo notables, y sigue siendo una figura destacada en la 
+            escena musical latinoamericana.
+        </p>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="container">
+            <p>Redes Sociales del Cantante: <a href="https://www.facebook.com/CHAYANNE/?locale=es_LA" target="_blank">Facebook</a>, <a href="https://twitter.com/CHAYANNEMUSIC" target="_blank">Twitter</a>, <a href="https://www.instagram.com/chayanne/?hl=es-la" target="_blank">Instagram</a></p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0; 
+}
+
+header, footer {
+    background-color: #007bff;
+    color: #ffffff; 
+    padding: 15px 0; 
+    text-align: center; 
+}
+
+footer a {
+    color: #ffcc00; 
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+}
+
+.container {
+    text-align: center;
+}
+
+.map-container {
+    margin-bottom: 20px;
+}
